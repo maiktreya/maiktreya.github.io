@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-### For bussiness  and consultancy related inquires
+For bussiness  and consultancy related inquires
 
 - #### MAIL <miguel.garcia.duch@gmail.com>
 
@@ -10,7 +10,7 @@
 
 -----------------------------------------------------------------------------------------------------
 
-### Research / Academic
+Research / Academic
 
 - #### MAIL: <miguel.garcia.duch@ucm.es>
 
