@@ -1,8 +1,36 @@
+## C1. Publications
 
-- *<strong><strong>Li, S.</strong></strong>, Yang, X., Cao, A., Wang, C., Liu, Y., Liu, Y., & Niu, Q. (2023). Seismogram Transformer: A generic deep learning backbone network for multiple earthquake monitoring tasks. arXiv preprint arXiv:2310.01037.* [[Paper]](https://arxiv.org/abs/2310.01037) [[Code]](https://github.com/senli1073/SeisT)
+### Peer review articles as lead author:
 
-- *Cao, A., Yang, X., Wang, C., <strong><strong>Li, S.</strong></strong>, Liu, Y., Dou, L. & Niu, Q. (2023). High-precision phase picking and automatic source locating method for seismicity in mines based on deep transfer learning.* [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
-- *Cao, A., Liu, Y., Yang, X., <strong><strong>Li, S.</strong></strong>, Wang, C., Bai, X. & Liu, Y. (2022). Physical index and Data Fusion-Driven method for coal burst prediction in time sequence. Journal of China Coal Society.* [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
+(2023) → Balance of Payments Constrained Growth in the Eurozone: Evidence on Multi-Sector
+Thirlwall’s Law for a Sample of 9 Founding Euro Countries, 1992-2019. Authors: Miguel García Duch.
+ICEI Working Papers WP02-23. (Under review on Cambridge Journal of Economics)
 
-- *Yang, X., Yu, X., Zhang, C., <strong><strong>Li, S.</strong></strong>, & Niu, Q. (2021). MineGPS: battery-free localization base station for coal mine environment. IEEE Communications Letters.* [[Paper]](https://ieeexplore.ieee.org/abstract/document/9433550)
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+(2018) → “Productivity Convergence During the Eurozone Genesis (1992 – 2007): Evidence of an
+expected phenomena.“ Revista de Economía Mundial. N.º 84. April 2018. Authors: Miguel García
+Duch ISSN: 1576-0162
+
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+Forthcoming peer-reviewed articles as lead author:
+Vidal, L. & García-Duch, M. (under review) Requiem for a society of owners? Working-class property
+ownership in contemporary Spain. Socio-Economic Review
+Book Chapters:
+
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+(2012) → El sur de Europa frente a la Gran recesión: límites y potencialidades. Authors: Miguel
+García Duch M., Vidal-Folch L., del Río A., Camacho I. In: El sur de Europa frente a la Gran recesión:
+límites y potencialidades. EDITORIAL ECONONUESTRA
+ISBN 13:978-84-695-9239-7
+
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
