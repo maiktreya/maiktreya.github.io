@@ -24,7 +24,7 @@ expand on these interests.
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-## A3. Private sector nd consultancy
+## A1. Private sector & consultancy
 
 - Data Analyst and Database Manager at Real Energy Systems. (2017-2022)
 - Freelance full stack data engineer. (2022-nowadays)
