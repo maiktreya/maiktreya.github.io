@@ -34,8 +34,7 @@ expand on these interests.
 
 ## A2. Current research positions
 
-(2017-) → Research Associate. ICEI – Complutense Institute for International Studies (ICEI).
-Complutense University of Madrid (UCM)
+- (2017-) → Research Associate. ICEI – Complutense Institute for International Studies (ICEI). Complutense University of Madrid (UCM)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
