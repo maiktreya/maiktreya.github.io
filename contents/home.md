@@ -1,4 +1,3 @@
-### miguel.garcia.duch@gmail.com / miguel.garcia.duch@ucm.es
 
 <blockquote>
 Miguel García-Duch holds a Ph.D. in Economics from Complutense University of Madrid (UCM), with
