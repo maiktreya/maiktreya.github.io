@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------------------------------------
 
 
-## R libraries and proyects
+## R libraries and projects
 
 Some of my projects developing and implementing new features for the R enviroment.
 
