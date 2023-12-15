@@ -1,6 +1,6 @@
-##  C. Teach positions
+## C. Teach positions
 
-### Teach positions held at undergraduate level:
+### Teach positions held at undergraduate level
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
@@ -31,7 +31,6 @@ INSTITUTION Universidad Complutense (UCM)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
-
 
 Associate lecturer (WORLD ECONOMY, Economics grade)
 DEPARTAMENT Economía Aplicada, Estructura e Historia
