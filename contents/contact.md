@@ -9,7 +9,7 @@
 
 -----------------------------------------------------------------------------------------------------
 
-## Reseach / Academic:
+## Research / Academic:
 
 - ### MAIL: miguel.garcia.duch@ucm.es
 - ### ORCID: https://orcid.org/0009-0004-9438-1242
