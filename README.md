@@ -1,7 +1,5 @@
-# iliciuv.github.io
+## Public Personal Page
 
 Miguel Garcia-Duch
 
 miguel.garcia.duch@gmail.com / miguel.garcia.duch@ucm.es
-
-Public Personal Page
