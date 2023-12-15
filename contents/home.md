@@ -1,5 +1,5 @@
 <blockquote>
-Miguel García-Duch holds a Ph.D. in Economics from Complutense University of Madrid (UCM), with
+Miguel Garcia-Duch holds a Ph.D. in Economics from Complutense University of Madrid (UCM), with
 a thesis that delves into the macroeconomic imbalances in the eurozone and the associated 2011 debt
 crisis. This research culminated in an award-winning publication in the Journal of World Economy in
 2018.
