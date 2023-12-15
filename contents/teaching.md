@@ -1,4 +1,4 @@
-##  D. Teach positions
+##  C. Teach positions
 
 ### Teach positions held at undergraduate level:
 

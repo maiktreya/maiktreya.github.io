@@ -1,4 +1,4 @@
-## C1. Publications
+## B. Publications
 
 ### Peer review articles as lead author:
 
