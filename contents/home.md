@@ -20,6 +20,7 @@ expand on these interests.
 -----------------------------------------------------------------------------------------------------
 
 ## A1. Current research position
+
 (2017-) → Research Associate. ICEI – Complutense Institute for International Studies (ICEI).
 Complutense University of Madrid (UCM)
 
@@ -27,12 +28,10 @@ Complutense University of Madrid (UCM)
 -----------------------------------------------------------------------------------------------------
 
 ## A2. Education
-(2018) → PhD in Economics. Universidad Complutense with International Mention. Dissertation
-name: “ Economic Convergence and Uneven Development: The Role of Increasing Returns and Trade
-Imbalances in The Eurozone Genesis and Crisis.” Language: English.
-(2014) →MA in International Economics and Development. Universidad Complutense de Madrid.
-(2012) → Bachelor 's Degree in Economics. Special field: International Economy and Development.
-Universidad Complutense de Madrid.
+
+- (2018) → PhD in Economics. Universidad Complutense with International Mention. Dissertation name: “ Economic Convergence and Uneven Development: The Role of Increasing Returns and Trade. Imbalances in The Eurozone Genesis and Crisis.” Language: English.
+- (2014) →MA in International Economics and Development. Universidad Complutense de Madrid.
+- (2012) → Bachelor 's Degree in Economics. Special field: International Economy and Development. Universidad Complutense de Madrid.
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
