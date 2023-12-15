@@ -10,7 +10,7 @@ Possessing a strong foundation in political economy, macroeconomics, and advance
 analysis, Miguel has showcased his expertise in econometric modelling and data analysis throughout
 his five-year tenure at Real Energy Systems and in his current role as a freelance data scientist
 working on full stack consultancy on data-oriented software development. He has also been
-a visiting researcher at Kingston University (London), and has held eaching positions at both
+a visiting researcher at Kingston University (London), and has held teaching positions at both
 Universidad Complutense de Madrid and the University of Valladolid.
 </blockquote>
 
