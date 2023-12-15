@@ -8,17 +8,18 @@ crisis. This research culminated in an award-winning publication in the Journal 
 <blockquote>
 Possessing a strong foundation in political economy, macroeconomics, and advanced statistical
 analysis, Miguel has showcased his expertise in econometric modelling and data analysis throughout
-his five-year tenure at Real Energy Systems and in his role as a freelance data scientist. He has
-been a visiting researcher at Kingston University, London and has held eaching positions at both
+his five-year tenure at Real Energy Systems and in his current role as a freelance data scientist
+working on full stack consultancy on data-oriented software development. He has also been
+a visiting researcher at Kingston University (London), and has held eaching positions at both
 Universidad Complutense de Madrid and the University of Valladolid.
 </blockquote>
 
 <blockquote>
 Currently associated with the Complutense Institute for International Studies (ICEI-UCM), Miguel is
 deepening his exploration into income and wealth distribution trends, using extensive databases and
-surveys. Alongside, his upcoming research is also centred on the Spanish economy and housing
-accessibility. Passionate about research and academia, Miguel is actively seeking opportunities to
-expand on these interests.
+surveys to investigate European and global trends through large scale inferential models and ML
+techniques. Passionate about applied research and building data-oriented software solutions, Miguel
+is actively seeking opportunities to expand on these interests.
 </blockquote>
 
 -----------------------------------------------------------------------------------------------------
