@@ -1,36 +1,42 @@
-## C1. Publications
+##  D. Teach positions
 
-### Peer review articles as lead author:
-
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
-
-(2023) → Balance of Payments Constrained Growth in the Eurozone: Evidence on Multi-Sector
-Thirlwall’s Law for a Sample of 9 Founding Euro Countries, 1992-2019. Authors: Miguel García Duch.
-ICEI Working Papers WP02-23. (Under review on Cambridge Journal of Economics)
+### Teach positions held at undergraduate level:
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-(2018) → “Productivity Convergence During the Eurozone Genesis (1992 – 2007): Evidence of an
-expected phenomena.“ Revista de Economía Mundial. N.º 84. April 2018. Authors: Miguel García
-Duch ISSN: 1576-0162
+Associate lecturer (ECONOMIC POLICY, Business Administration grade)
+DEPARTAMENT Applied Economics
+FACULTY Facultad de Ciencias Sociales, Jurídicas y de la Comunicación
+INSTITUTION Universidad de Valladolid
+60h. FROM: 2019-02-0 TO: 2019-07-31
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-Forthcoming peer-reviewed articles as lead author:
-Vidal, L. & García-Duch, M. (under review) Requiem for a society of owners? Working-class property
-ownership in contemporary Spain. Socio-Economic Review
-Book Chapters:
+Associate lecturer (SPANISH ECONOMY, Business Administration grade)
+DEPARTAMENT Economía Aplicada
+FACULTY Facultad de Ciencias Sociales, Jurídicas y de la Comunicación
+INSTITUTION Universidad de Valladolid
+30h. FROM: 2020-02-11 TO: 2020-08-10
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-(2012) → El sur de Europa frente a la Gran recesión: límites y potencialidades. Authors: Miguel
-García Duch M., Vidal-Folch L., del Río A., Camacho I. In: El sur de Europa frente a la Gran recesión:
-límites y potencialidades. EDITORIAL ECONONUESTRA
-ISBN 13:978-84-695-9239-7
+Associate lecturer (SPANISH & WORLD ECONOMY, Trade grade)
+DEPARTAMENT Applied Economics, Structure & History
+FACULTY Facultad de Ciencias Económicas y Empresariales
+INSTITUTION Universidad Complutense (UCM)
+60h. FROM: 2021-05-14 TO: 2022-08-31
 
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+
+Associate lecturer (WORLD ECONOMY, Economics grade)
+DEPARTAMENT Economía Aplicada, Estructura e Historia
+FACULTY Facultad de Ciencias Económicas y Empresariales
+INSTITUTION Universidad Complutense (UCM)
+60h. FROM: 2021-05-14 TO: 2022-08-31
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
