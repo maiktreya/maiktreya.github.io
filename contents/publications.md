@@ -38,5 +38,6 @@ DEPARTAMENT Economía Aplicada, Estructura e Historia
 FACULTY Facultad de Ciencias Económicas y Empresariales
 INSTITUTION Universidad Complutense (UCM)
 60h. FROM: 2021-05-14 TO: 2022-08-31
+
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
