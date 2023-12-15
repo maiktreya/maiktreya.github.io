@@ -2,19 +2,19 @@
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-For bussiness  and consultancy related inquires
+For bussiness  and consultancy related inquires:
 
-- #### MAIL <miguel.garcia.duch@gmail.com>
+- #### Mail: <miguel.garcia.duch@gmail.com>
 
-- #### LINKEDIN: <https://www.linkedin.com/in/miguel-garcia-duch-a606b22a5>
+- #### Linkedin: <https://www.linkedin.com/in/miguel-garcia-duch-a606b22a5>
 
 -----------------------------------------------------------------------------------------------------
 
-Research / Academic
+Research / Academic:
 
-- #### MAIL: <miguel.garcia.duch@ucm.es>
+- #### Mail: <miguel.garcia.duch@ucm.es>
 
-- #### ORCID: <https://orcid.org/0009-0004-9438-1242>
+- #### Orcid: <https://orcid.org/0009-0004-9438-1242>
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
