@@ -8,6 +8,8 @@ For bussiness  and consultancy related inquires:
 
 - #### Linkedin: <https://www.linkedin.com/in/miguel-garcia-duch-a606b22a5>
 
+- #### UpWork: <https://www.upwork.com/freelancers/~01673180b169c8e56d>
+
 -----------------------------------------------------------------------------------------------------
 
 Research / Academic:
