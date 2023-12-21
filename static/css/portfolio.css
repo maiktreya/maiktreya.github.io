@@ -31,3 +31,10 @@
     flex: 1 0 calc(50% - 20px);
   }
 }
+.portfolio-iframe {
+  width: 100%;
+  height: 300px; /* You can adjust this height as needed */
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
