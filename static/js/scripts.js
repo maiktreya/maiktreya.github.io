@@ -73,7 +73,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
             });
           });
 
-          document.getElementById(name + "-md").innerHTML = portfolioHTML;
+          document.getElementById(name + "-content").innerHTML = portfolioHTML;
         } else {
           // Normal handling for other sections
           html = marked.parse(markdown);
