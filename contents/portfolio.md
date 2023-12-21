@@ -30,6 +30,8 @@ A straightforward app showcasing interactive linear-regression with generated or
 
 - Public repository: <https://github.com/iliciuv/visual-regression>
 - Live interactive example: <https://visual-regression.streamlit.app/>
+-
+  <iframe src="static/virtual-modbus-gifs.html" class="portfolio-iframe"></iframe>
 
 ### WebModbusClient
 
