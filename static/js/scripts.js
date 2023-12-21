@@ -4,6 +4,28 @@ const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'publications', "teaching", "portfolio", "contact"]
 
+// Path to your portfolio markdown file
+const markdownFile = 'github/iliciuv.github.io/contents/portfolio.md';
+
+fetch(markdownFile)
+  .then(response => response.text())
+  .then(md => {
+    // Converting Markdown to HTML
+    const htmlContent = marked(md);
+
+    // Splitting the content into separate projects (assuming they are divided by headers)
+    const projects = htmlContent.split(/<h2>/i).slice(1);  // Assuming each project starts with an H2 tag
+
+    const portfolioContent = document.getElementById('portfolio-content');
+    projects.forEach(project => {
+      portfolioContent.innerHTML += `
+        <div class="portfolio-card">
+          <h2>${project}</h2>
+        </div>
+      `;
+    });
+  })
+  .catch(error => console.log('Error loading Markdown file:', error));
 
 window.addEventListener('DOMContentLoaded', event => {
 
