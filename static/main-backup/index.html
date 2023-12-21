@@ -31,6 +31,7 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
+    <link type="text/css" href="static/css/portfolio.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
   </head>
 
@@ -151,19 +152,35 @@
     <!-- Teaching -->
 
     <!-- Portfolio -->
-    <section
-      class="bg-gradient-primary-to-secondary-gray mt5 md5"
-      id="portfolio"
-    >
-      <div class="container px-5">
-        <header>
-          <h2 id="portfolio-subtitle">
-            <i class="bi bi-file-text-fill"></i>PORTFOLIO
-          </h2>
-        </header>
-        <div class="main-body" id="portfolio-md"></div>
+ <!-- Modified Portfolio Section -->
+ <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="portfolio">
+  <div class="container px-5">
+    <header>
+      <h2 id="portfolio-subtitle">
+        <i class="bi bi-file-text-fill"></i>PORTFOLIO
+      </h2>
+    </header>
+    <div class="portfolio-grid">
+      <!-- Example Project 1 -->
+      <div class="portfolio-card">
+        <img src="path/to/project1-thumbnail.jpg" alt="Project 1 Thumbnail" class="portfolio-thumbnail">
+        <div class="project-title">Project 1 Title</div>
+        <div class="project-description">Brief description of Project 1.</div>
+        <a href="https://github.com/link-to-project-1" target="_blank">View on GitHub</a>
       </div>
-    </section>
+
+      <!-- Example Project 2 -->
+      <div class="portfolio-card">
+        <img src="path/to/project2-thumbnail.jpg" alt="Project 2 Thumbnail" class="portfolio-thumbnail">
+        <div class="project-title">Project 2 Title</div>
+        <div class="project-description">Brief description of Project 2.</div>
+        <a href="https://github.com/link-to-project-2" target="_blank">View on GitHub</a>
+      </div>
+
+      <!-- ... more projects ... -->
+    </div>
+  </div>
+</section>
     <!-- Portfolio -->
 
     <!-- Contact -->

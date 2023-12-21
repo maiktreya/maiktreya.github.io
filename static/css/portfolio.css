@@ -1,0 +1,33 @@
+.portfolio-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s;
+}
+.portfolio-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.portfolio-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.project-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.project-description {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .portfolio-card {
+    flex: 1 0 calc(50% - 20px);
+  }
+}
