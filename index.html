@@ -34,7 +34,6 @@
     <link type="text/css" href="static/css/portfolio.css" rel="stylesheet" />
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
     <script type="text/javascript" src="static/js/marked.min.js"></script>
-
   </head>
 
   <body id="page-top">
@@ -153,20 +152,30 @@
     </section>
     <!-- Teaching -->
 
-<!-- Portfolio Section -->
-<section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="portfolio">
-  <div class="container px-5">
-    <header>
-      <h2 id="portfolio-subtitle">
-        <i class="bi bi-file-text-fill"></i>PORTFOLIO
-      </h2>
-    </header>
-    <div id="portfolio-content" class="portfolio-grid">
-      <!-- Project placeholders will be populated here -->
-    </div>
-    <iframe src="static/virtual-modbus-gifs.html" class="portfolio-iframe"> Visual Modbus Plant SaaS: Feature Overview</iframe>
-  </div>
-</section>
+    <!-- Portfolio Section -->
+    <section
+      class="bg-gradient-primary-to-secondary-gray mt5 md5"
+      id="portfolio"
+    >
+      <div class="container px-5">
+        <header>
+          <h2 id="portfolio-subtitle">
+            <i class="bi bi-file-text-fill"></i>PORTFOLIO
+          </h2>
+        </header>
+        <div id="portfolio-content" class="portfolio-grid">
+          <!-- Project placeholders will be populated here -->
+        </div>
+        <!-- Button to show the iframe -->
+        <button id="showIframeBtn">View Portfolio</button>
+        <!-- Optional: overlay background -->
+        <div class="overlay"></div>
+        <!-- iframe with the portfolio content -->
+        <iframe src="static/virtual-modbus-gifs.html" class="portfolio-iframe">
+          Visual Modbus Plant SaaS: Feature Overview
+        </iframe>
+      </div>
+    </section>
 
     <!-- Contact -->
     <section

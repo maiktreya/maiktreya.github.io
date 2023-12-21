@@ -31,10 +31,27 @@
     flex: 1 0 calc(50% - 20px);
   }
 }
+/* Style for the hidden iframe */
 .portfolio-iframe {
+  display: none; /* Initially hidden */
+  width: 80%; /* Adjust as needed */
+  height: 60%; /* Adjust as needed */
+  border: none; /* Removes the default border */
+  position: fixed; /* To make it float */
+  left: 50%; /* Center horizontally */
+  top: 50%; /* Center vertically */
+  transform: translate(-50%, -50%); /* Adjust position to center */
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better visibility */
+}
+/* Style for the background overlay (optional) */
+.overlay {
+  display: none; /* Initially hidden */
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 300px; /* You can adjust this height as needed */
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 15px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 999; /* Just below the iframe */
 }

@@ -87,3 +87,16 @@ window.addEventListener("DOMContentLoaded", (event) => {
       .catch((error) => console.log(error));
   });
 });
+
+// to interact (show/hide portfolio iframes)
+
+document.getElementById('showIframeBtn').addEventListener('click', function() {
+  document.querySelector('.portfolio-iframe').style.display = 'block'; // Show the iframe
+  document.querySelector('.overlay').style.display = 'block'; // Show the overlay (optional)
+});
+
+// Optional: Close the iframe when clicking on the overlay
+document.querySelector('.overlay').addEventListener('click', function() {
+  document.querySelector('.portfolio-iframe').style.display = 'none'; // Hide the iframe
+  this.style.display = 'none'; // Hide the overlay
+});
