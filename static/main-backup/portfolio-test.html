@@ -1,0 +1,49 @@
+<!-- ... [previous sections unchanged] ... -->
+
+<!-- Portfolio Section -->
+<section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="portfolio">
+    <div class="container px-5">
+      <header>
+        <h2 id="portfolio-subtitle">
+          <i class="bi bi-file-text-fill"></i>PORTFOLIO
+        </h2>
+      </header>
+      <div id="portfolio-content" class="portfolio-grid">
+        <!-- Project placeholders will be populated here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ... [subsequent sections unchanged] ... -->
+
+  <!-- ... [rest of the body and closing tags] ... -->
+  <script>
+    // Assuming content_dir contains the path to your Markdown files directory
+    const content_dir = 'github/iliciuv.github.io/contents/';
+
+    // Fetching portfolio configuration
+    fetch(content_dir + 'config.yml')
+      .then(response => response.text())
+      .then(text => {
+        const portfolioItems = jsyaml.load(text);
+
+        // Dynamically creating portfolio items
+        portfolioItems.forEach(item => {
+          fetch(content_dir + item.markdownFile)
+            .then(response => response.text())
+            .then(md => {
+              const portfolioContent = document.getElementById('portfolio-content');
+              portfolioContent.innerHTML += `
+                <div class="portfolio-card">
+                  <img src="${item.thumbnail}" alt="${item.title}" class="portfolio-thumbnail">
+                  <div class="project-title">${item.title}</div>
+                  <div class="project-description">${md}</div>
+                  <a href="${item.githubLink}" target="_blank">View on GitHub</a>
+                </div>
+              `;
+            })
+            .catch(error => console.log('Error loading Markdown file:', error));
+        });
+      })
+      .catch(error => console.log('Error loading portfolio configuration:', error));
+  </script>
