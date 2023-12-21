@@ -10,7 +10,7 @@ const section_names = [
 
 document.addEventListener("DOMContentLoaded", (event) => {
   // Path to your portfolio markdown file
-  const markdownFile = "github/iliciuv.github.io/contents/portfolio.md";
+  const markdownFile = "contents/portfolio.md";
 
   fetch(markdownFile)
     .then((response) => response.text())
