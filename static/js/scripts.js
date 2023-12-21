@@ -8,33 +8,30 @@ const section_names = [
   "contact",
 ];
 
-// Path to your portfolio markdown file
-const markdownFile = "github/iliciuv.github.io/contents/portfolio.md";
+document.addEventListener("DOMContentLoaded", (event) => {
+  // Path to your portfolio markdown file
+  const markdownFile = "github/iliciuv.github.io/contents/portfolio.md";
 
-fetch(markdownFile)
-  .then((response) => response.text())
-  .then((md) => {
-    // Converting Markdown to HTML
-    const htmlContent = marked(md);
+  fetch(markdownFile)
+    .then((response) => response.text())
+    .then((md) => {
+      const htmlContent = marked(md);
+      const sections = htmlContent.split(/<h2>/i).slice(1);
 
-    // Splitting the content into sections (assuming they are divided by '##')
-    const sections = htmlContent.split(/<h2>/i).slice(1);
-
-    const portfolioContent = document.getElementById("portfolio-content");
-    sections.forEach((section) => {
-      // Splitting each section into projects (assuming they are divided by '###')
-      const projects = section.split(/<h3>/i).slice(1);
-
-      projects.forEach((project) => {
-        portfolioContent.innerHTML += `
-            <div class="portfolio-card">
-              <h3>${project}</h3>
-            </div>
-          `;
+      const portfolioContent = document.getElementById("portfolio-content");
+      sections.forEach((section) => {
+        const projects = section.split(/<h3>/i).slice(1);
+        projects.forEach((project) => {
+          portfolioContent.innerHTML += `
+              <div class="portfolio-card">
+                <h3>${project}</h3>
+              </div>
+            `;
+        });
       });
-    });
-  })
-  .catch((error) => console.log("Error loading Markdown file:", error));
+    })
+    .catch((error) => console.log("Error loading Markdown file:", error));
+});
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // Activate Bootstrap scrollspy on the main nav element
