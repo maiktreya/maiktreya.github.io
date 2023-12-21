@@ -17,33 +17,28 @@
   <!-- ... [subsequent sections unchanged] ... -->
 
   <!-- ... [rest of the body and closing tags] ... -->
+
   <script>
-    // Assuming content_dir contains the path to your Markdown files directory
-    const content_dir = 'github/iliciuv.github.io/contents/';
+    // Path to your portfolio markdown file
+    const markdownFile = 'github/iliciuv.github.io/contents/portfolio.md';
 
-    // Fetching portfolio configuration
-    fetch(content_dir + 'config.yml')
+    fetch(markdownFile)
       .then(response => response.text())
-      .then(text => {
-        const portfolioItems = jsyaml.load(text);
+      .then(md => {
+        // Converting Markdown to HTML
+        const htmlContent = marked(md);
 
-        // Dynamically creating portfolio items
-        portfolioItems.forEach(item => {
-          fetch(content_dir + item.markdownFile)
-            .then(response => response.text())
-            .then(md => {
-              const portfolioContent = document.getElementById('portfolio-content');
-              portfolioContent.innerHTML += `
-                <div class="portfolio-card">
-                  <img src="${item.thumbnail}" alt="${item.title}" class="portfolio-thumbnail">
-                  <div class="project-title">${item.title}</div>
-                  <div class="project-description">${md}</div>
-                  <a href="${item.githubLink}" target="_blank">View on GitHub</a>
-                </div>
-              `;
-            })
-            .catch(error => console.log('Error loading Markdown file:', error));
+        // Splitting the content into separate projects (assuming they are divided by headers)
+        const projects = htmlContent.split(/<h2>/i).slice(1);  // Assuming each project starts with an H2 tag
+
+        const portfolioContent = document.getElementById('portfolio-content');
+        projects.forEach(project => {
+          portfolioContent.innerHTML += `
+            <div class="portfolio-card">
+              <h2>${project}</h2>
+            </div>
+          `;
         });
       })
-      .catch(error => console.log('Error loading portfolio configuration:', error));
+      .catch(error => console.log('Error loading Markdown file:', error));
   </script>
