@@ -8,31 +8,6 @@ const section_names = [
   "contact",
 ];
 
-document.addEventListener("DOMContentLoaded", (event) => {
-  // Path to your portfolio markdown file
-  const markdownFile = "contents/portfolio.md";
-
-  fetch(markdownFile)
-    .then((response) => response.text())
-    .then((md) => {
-      const htmlContent = marked(md);
-      const sections = htmlContent.split(/<h2>/i).slice(1);
-
-      const portfolioContent = document.getElementById("portfolio-content");
-      sections.forEach((section) => {
-        const projects = section.split(/<h3>/i).slice(1);
-        projects.forEach((project) => {
-          portfolioContent.innerHTML += `
-              <div class="portfolio-card">
-                <h3>${project}</h3>
-              </div>
-            `;
-        });
-      });
-    })
-    .catch((error) => console.log("Error loading Markdown file:", error));
-});
-
 window.addEventListener("DOMContentLoaded", (event) => {
   // Activate Bootstrap scrollspy on the main nav element
   const mainNav = document.body.querySelector("#mainNav");
@@ -79,8 +54,31 @@ window.addEventListener("DOMContentLoaded", (event) => {
     fetch(content_dir + name + ".md")
       .then((response) => response.text())
       .then((markdown) => {
-        const html = marked.parse(markdown);
-        document.getElementById(name + "-md").innerHTML = html;
+        let html;
+
+        if (name === "portfolio") {
+          // Special handling for the portfolio section
+          html = marked.parse(markdown);
+          const sections = html.split(/<h2>/i).slice(1);
+          let portfolioHTML = "";
+
+          sections.forEach((section) => {
+            const projects = section.split(/<h3>/i).slice(1);
+            projects.forEach((project) => {
+              portfolioHTML += `
+                <div class="portfolio-card">
+                  <h3>${project}</h3>
+                </div>
+              `;
+            });
+          });
+
+          document.getElementById(name + "-md").innerHTML = portfolioHTML;
+        } else {
+          // Normal handling for other sections
+          html = marked.parse(markdown);
+          document.getElementById(name + "-md").innerHTML = html;
+        }
       })
       .then(() => {
         // MathJax
