@@ -55,7 +55,7 @@
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   z-index: 999; /* Just below the iframe */
 }
-/* Styling the button */
+/* Styling the iframe button */
 #showIframeBtn {
   padding: 10px 20px;
   font-size: 1rem;
