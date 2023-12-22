@@ -1,3 +1,4 @@
+/* Your existing portfolio card styles */
 .portfolio-card {
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -31,6 +32,7 @@
     flex: 1 0 calc(50% - 20px);
   }
 }
+
 /* Style for the hidden iframe */
 .portfolio-iframe {
   display: none; /* Initially hidden */
@@ -55,7 +57,7 @@
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   z-index: 999; /* Just below the iframe */
 }
-/* Styling the iframe button */
+/* Additional style for the button to fit within the card */
 #showIframeBtn {
   padding: 10px 20px;
   font-size: 1rem;
@@ -64,6 +66,8 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%; /* Make button full width */
+  box-sizing: border-box; /* Include padding in the button's width */
   transition: background-color 0.3s, transform 0.3s;
 }
 #showIframeBtn:hover {
@@ -71,6 +75,5 @@
   transform: scale(1.05);
 }
 #showIframeBtn:focus {
-  outline: none; /* Removes the default outline */
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Adds a blue glow */
+  outline: none;
 }
