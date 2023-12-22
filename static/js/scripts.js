@@ -89,16 +89,44 @@ window.addEventListener("DOMContentLoaded", (event) => {
 });
 
 // to interact (show/hide portfolio iframes)
+// Wait until the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+  // Setting up the show iframe functionality
+  var iframeButton = document.getElementById("showIframeBtn");
+  if (iframeButton) {
+    // Check if the button exists
+    iframeButton.addEventListener("click", function () {
+      var iframe = document.querySelector(".portfolio-iframe");
+      var overlay = document.querySelector(".overlay");
+      if (iframe && overlay) {
+        // Check if the iframe and overlay exist
+        iframe.style.display = "block"; // Show the iframe
+        overlay.style.display = "block"; // Show the overlay
+      } else {
+        console.error("Iframe or overlay not found for showing!");
+      }
+    });
+  } else {
+    console.error("Button not found for showing iframe!");
+  }
 
-document.getElementById('showIframeBtn').addEventListener('click', function() {
-  document.querySelector('.portfolio-iframe').style.display = 'block'; // Show the iframe
-  document.querySelector('.overlay').style.display = 'block'; // Show the overlay (optional)
-});
-
-// Optional: Close the iframe when clicking on the overlay
-document.querySelector('.overlay').addEventListener('click', function() {
-  document.querySelector('.portfolio-iframe').style.display = 'none'; // Hide the iframe
-  this.style.display = 'none'; // Hide the overlay
+  // Setting up the hide iframe functionality
+  var overlay = document.querySelector(".overlay");
+  if (overlay) {
+    // Check if the overlay exists
+    overlay.addEventListener("click", function () {
+      var iframe = document.querySelector(".portfolio-iframe");
+      if (iframe) {
+        // Check if the iframe exists
+        iframe.style.display = "none"; // Hide the iframe
+        overlay.style.display = "none"; // Hide the overlay
+      } else {
+        console.error("Iframe or overlay not found for hiding!");
+      }
+    });
+  } else {
+    console.error("Overlay not found for hiding iframe!");
+  }
 });
 
 // Refracted from index.html
