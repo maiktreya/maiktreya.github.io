@@ -11,6 +11,9 @@ A draft partially extending the functionalities of oaxaca library for survey dat
 
 - [Public repository](https://github.com/iliciuv/OaxacaSurvey)
 
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
 ### SystemfitECM
 
 A working implementation of Error Correction models and ARDL reparametrizations based on Pesaran et al. (2001) for the systemfit library. So, basically, it allows SUR/2SLS/3SLS estimation under ECM.
@@ -30,6 +33,9 @@ A straightforward app showcasing interactive linear-regression with generated or
 
 - [Public repository](https://github.com/iliciuv/visual-regression)
 - [Live interactive example](https://visual-regression.streamlit.app/)
+
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 ### WebModbusClient
 
