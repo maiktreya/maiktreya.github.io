@@ -7,6 +7,10 @@ const section_names = [
   "portfolio",
   "contact",
 ];
+// Refracted from index.html
+MathJax = {
+  tex: { inlineMath: [["$", "$"]] },
+};
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // Activate Bootstrap scrollspy on the main nav element
@@ -128,8 +132,3 @@ document.addEventListener("DOMContentLoaded", function () {
     console.error("Overlay not found for hiding iframe!");
   }
 });
-
-// Refracted from index.html
-MathJax = {
-  tex: { inlineMath: [["$", "$"]] },
-};
