@@ -100,3 +100,8 @@ document.querySelector('.overlay').addEventListener('click', function() {
   document.querySelector('.portfolio-iframe').style.display = 'none'; // Hide the iframe
   this.style.display = 'none'; // Hide the overlay
 });
+
+// Refracted from index.html
+MathJax = {
+  tex: { inlineMath: [["$", "$"]] },
+};
