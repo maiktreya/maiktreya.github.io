@@ -84,9 +84,18 @@ window.addEventListener("DOMContentLoaded", (event) => {
           document.getElementById(name + "-md").innerHTML = html;
         }
       })
+      // After fetching markdown and other operations
       .then(() => {
-        // MathJax
-        MathJax.typeset();
+        // Ensuring MathJax is loaded and ready before calling typeset
+        if (window.MathJax) {
+          MathJax.startup.promise
+            .then(function () {
+              MathJax.typeset(); // This will typeset all the math in the document.
+            })
+            .catch(function (err) {
+              console.error("MathJax startup error:", err);
+            });
+        }
       })
       .catch((error) => console.log(error));
   });
