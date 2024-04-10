@@ -47,10 +47,7 @@ Minimal implementation of an asyncronous modbus TCP web-client and a streamlit f
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-
-
-
-### SQL-Dashboard
+### SqlDashboard
 
 Sql query WebApp showcasing some nice features (tidy code, draw relational diagram, download...)
 
