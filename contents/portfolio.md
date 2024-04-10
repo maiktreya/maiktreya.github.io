@@ -43,7 +43,6 @@ Minimal implementation of an asyncronous modbus TCP web-client and a streamlit f
 
 - [Public repository](https://github.com/maiktreya/WebModbusClient)
 - [Live interactive example](https://webmodbusclient.streamlit.app/)
-- 
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
@@ -57,7 +56,6 @@ Sql query WebApp showcasing some nice features (tidy code, draw relational diagr
 
 - [Public repository](https://github.com/maiktreya/sql-dashboard)
 - [Live interactive example](https://sql-dashboard.streamlit.app/)
-- 
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
