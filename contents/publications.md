@@ -13,7 +13,8 @@ ICEI Working Papers WP02-23. (Pending publication in Cambridge Journal of Econom
 ---
 
 
-Vidal, L., & García-Duch, M. (2024). The limits to working-class property ownership: The case of Spain’s ‘society of owners.’  *Economy and Society* , 1–26. https://doi.org/10.1080/03085147.2024.2414586
+Vidal, L., & García-Duch, M. (2024). The limits to working-class property ownership: The case of Spain’s ‘society of owners.’  
+*Economy and Society* , 1–26. https://doi.org/10.1080/03085147.2024.2414586
 
 
 ---
