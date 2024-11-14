@@ -7,7 +7,8 @@
 
 García-Duch, M. (2024) → Balance of Payments Constrained Growth in the Eurozone: Evidence on Multi-Sector
 Thirlwall’s Law for a Sample of 9 Founding Euro Countries, 1992-2019. Authors: Miguel García Duch.
-ICEI Working Papers WP02-23. (Pending publication in Cambridge Journal of Economics, accepted june 2024)
+ICEI Working Papers WP02-23. https://docta.ucm.es/entities/publication/17cc3980-a4e2-4790-8b4b-0ed2e3daf071
+(Pending publication in Cambridge Journal of Economics, accepted june 2024)
 
 ---
 ---
@@ -28,9 +29,7 @@ expected phenomena.“ Revista de Economía Mundial. N.º 84. April 2018. ISSN: 
 ---
 
 García-Duch M., Vidal-Folch L., del Río A., Camacho I. (2012) → El sur de Europa frente a la Gran recesión: límites y potencialidades. Authors: Miguel
- In: El sur de Europa frente a la Gran recesión:
-límites y potencialidades. EDITORIAL ECONONUESTRA
-ISBN 13:978-84-695-9239-7
+ In: El sur de Europa frente a la Gran recesión: límites y potencialidades. EDITORIAL ECONONUESTRA ISBN 13:978-84-695-9239-7
 
 ---
 ---
