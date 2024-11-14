@@ -22,7 +22,7 @@ Vidal, L., & García-Duch, M. (2024). The limits to working-class property owner
 
 
 García-Duch, M.(2018) → “Productivity Convergence During the Eurozone Genesis (1992 – 2007): Evidence of an
-expected phenomena.“ Revista de Economía Mundial. N.º 84. April 2018. ISSN: 1576-0162
+expected phenomena.“ Revista de Economía Mundial. N.º 84. April 2018. ISSN: 1576-0162. http://hdl.handle.net/10272/14725
 
 ---
 ---
