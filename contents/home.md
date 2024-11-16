@@ -19,7 +19,8 @@ Currently associated with the Complutense Institute for International Studies (I
 labour union CCOO, Miguel is deepening his exploration into income and wealth distribution trends, 
 using extensive databases and surveys to investigate European and global trends through large scale 
 inferential models and Machine- learning techniques. Passionate about applied research and building 
-data-oriented software solutions, Miguel is actively seeking opportunities to expand on these interests.
+data-oriented software solutions, Miguel is actively seeking opportunities to expand on these 
+interests.
 </blockquote>
 
 -----------------------------------------------------------------------------------------------------
