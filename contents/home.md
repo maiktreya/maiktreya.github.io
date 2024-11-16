@@ -29,6 +29,7 @@ Miguel is actively seeking opportunities to expand on these interests.
 
 - Data Analyst and Database Manager at Real Energy Systems. (2017-2022)
 - Freelance full stack data engineer. (2022-nowadays)
+- Senior data scientist. Confederal CCOO, HHRR Unit. (feb 2024-nowadays)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
