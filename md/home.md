@@ -26,7 +26,7 @@ interests.
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-## A1. Private sector & consultancy
+### Private sector & consultancy
 
 - Data Analyst and Database Manager at Real Energy Systems. (2017-2022)
 - Freelance full stack data engineer. (2022-nowadays)
@@ -35,14 +35,14 @@ interests.
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-## A2. Current research positions
+### Current research positions
 
 - (2017-) → Research Associate. ICEI – Complutense Institute for International Studies (ICEI). Complutense University of Madrid (UCM)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-## A3. Education
+### Education
 
 - (2018) → PhD in Economics. Universidad Complutense with International Mention. Dissertation name: “ Economic Convergence and Uneven Development: The Role of Increasing Returns and Trade. Imbalances in The Eurozone Genesis and Crisis.” Language: English.
 - (2014) →MA in International Economics and Development. Universidad Complutense de Madrid.
