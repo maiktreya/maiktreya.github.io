@@ -1,5 +1,8 @@
+// Content directory and configuration file
 const content_dir = "contents/";
 const config_file = "config.yml";
+
+// Section names for dynamic content injection
 const section_names = [
   "home",
   "publications",
@@ -7,19 +10,26 @@ const section_names = [
   "portfolio",
   "contact",
 ];
-// Refracted from index.html
+
+// MathJax configuration
 MathJax = {
   tex: { inlineMath: [["$", "$"]] },
 };
 
+// Event listener for DOMContentLoaded
 window.addEventListener("DOMContentLoaded", (event) => {
-  // Activate Bootstrap scrollspy on the main nav element
+  console.log("DOMContentLoaded event fired.");
+
+  // Activate Bootstrap ScrollSpy on the main nav element
   const mainNav = document.body.querySelector("#mainNav");
   if (mainNav) {
+    console.log("Initializing ScrollSpy on mainNav...");
     new bootstrap.ScrollSpy(document.body, {
       target: "#mainNav",
       offset: 74,
     });
+  } else {
+    console.error("mainNav element not found!");
   }
 
   // Collapse responsive navbar when toggler is visible
@@ -27,6 +37,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const responsiveNavItems = [].slice.call(
     document.querySelectorAll("#navbarResponsive .nav-link")
   );
+
   responsiveNavItems.map(function (responsiveNavItem) {
     responsiveNavItem.addEventListener("click", () => {
       if (window.getComputedStyle(navbarToggler).display !== "none") {
@@ -35,109 +46,92 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 
-  // Yaml
+  // Load YAML configuration file
   fetch(content_dir + config_file)
     .then((response) => response.text())
     .then((text) => {
       const yml = jsyaml.load(text);
       Object.keys(yml).forEach((key) => {
-        try {
-          document.getElementById(key).innerHTML = yml[key];
-        } catch {
-          console.log(
-            "Unknown id and value: " + key + "," + yml[key].toString()
-          );
+        const element = document.getElementById(key);
+        if (element) {
+          element.innerHTML = yml[key];
+        } else {
+          console.warn(`Element with id '${key}' not found.`);
         }
       });
     })
-    .catch((error) => console.log(error));
+    .catch((error) => console.error("Error loading YAML configuration:", error));
 
-  // Marked
+  // Load Markdown files for sections
   marked.use({ mangle: false, headerIds: false });
-  section_names.forEach((name, idx) => {
+  section_names.forEach((name) => {
     fetch(content_dir + name + ".md")
       .then((response) => response.text())
       .then((markdown) => {
-        let html;
+        const html = marked.parse(markdown);
+        const sectionContainer =
+          name === "portfolio"
+            ? document.getElementById(name + "-content")
+            : document.getElementById(name + "-md");
 
-        if (name === "portfolio") {
-          // Special handling for the portfolio section
-          html = marked.parse(markdown);
-          const sections = html.split(/<h2>/i).slice(1);
-          let portfolioHTML = "";
-
-          sections.forEach((section) => {
-            const projects = section.split(/<h3>/i).slice(1);
-            projects.forEach((project) => {
-              portfolioHTML += `
-                <div class="portfolio-card">
-                  <h3>${project}</h3>
-                </div>
-              `;
-            });
-          });
-
-          document.getElementById(name + "-content").innerHTML = portfolioHTML;
+        if (sectionContainer) {
+          sectionContainer.innerHTML = html;
+          console.log(`Injected content into ${name}.`);
         } else {
-          // Normal handling for other sections
-          html = marked.parse(markdown);
-          document.getElementById(name + "-md").innerHTML = html;
+          console.error(`Container for section '${name}' not found!`);
         }
       })
-      // After fetching markdown and other operations
       .then(() => {
-        // Ensuring MathJax is loaded and ready before calling typeset
+        // Ensure MathJax processes the loaded content
         if (window.MathJax) {
           MathJax.startup.promise
-            .then(function () {
-              MathJax.typeset(); // This will typeset all the math in the document.
+            .then(() => {
+              MathJax.typeset();
+              console.log("MathJax typeset completed.");
             })
-            .catch(function (err) {
-              console.error("MathJax startup error:", err);
-            });
+            .catch((err) => console.error("MathJax startup error:", err));
         }
       })
-      .catch((error) => console.log(error));
+      .catch((error) => console.error(`Error loading Markdown for '${name}':`, error));
   });
 });
 
-// to interact (show/hide portfolio iframes)
-// Wait until the DOM is fully loaded
+// Portfolio iframe show/hide functionality
 document.addEventListener("DOMContentLoaded", function () {
-  // Setting up the show iframe functionality
-  var iframeButton = document.getElementById("showIframeBtn");
+  console.log("Setting up portfolio iframe interactions.");
+
+  // Show iframe
+  const iframeButton = document.getElementById("showIframeBtn");
   if (iframeButton) {
-    // Check if the button exists
     iframeButton.addEventListener("click", function () {
-      var iframe = document.querySelector(".portfolio-iframe");
-      var overlay = document.querySelector(".overlay");
+      const iframe = document.querySelector(".portfolio-iframe");
+      const overlay = document.querySelector(".overlay");
       if (iframe && overlay) {
-        // Check if the iframe and overlay exist
-        iframe.style.display = "block"; // Show the iframe
-        overlay.style.display = "block"; // Show the overlay
+        iframe.style.display = "block"; // Show iframe
+        overlay.style.display = "block"; // Show overlay
+        console.log("Portfolio iframe shown.");
       } else {
         console.error("Iframe or overlay not found for showing!");
       }
     });
   } else {
-    console.error("Button not found for showing iframe!");
+    console.error("Button for showing iframe not found!");
   }
 
-  // Setting up the hide iframe functionality
-  var overlay = document.querySelector(".overlay");
+  // Hide iframe
+  const overlay = document.querySelector(".overlay");
   if (overlay) {
-    // Check if the overlay exists
     overlay.addEventListener("click", function () {
-      var iframe = document.querySelector(".portfolio-iframe");
+      const iframe = document.querySelector(".portfolio-iframe");
       if (iframe) {
-        // Check if the iframe exists
-        iframe.style.display = "none"; // Hide the iframe
-        overlay.style.display = "none"; // Hide the overlay
+        iframe.style.display = "none"; // Hide iframe
+        overlay.style.display = "none"; // Hide overlay
+        console.log("Portfolio iframe hidden.");
       } else {
-        console.error("Iframe or overlay not found for hiding!");
+        console.error("Iframe not found for hiding!");
       }
     });
   } else {
-    console.error("Overlay not found for hiding iframe!");
+    console.error("Overlay for hiding iframe not found!");
   }
 });
