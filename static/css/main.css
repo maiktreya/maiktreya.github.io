@@ -128,3 +128,29 @@ section .main-body{
 
 }
 
+/* Ensure the navbar items are horizontally aligned */
+.navbar-nav {
+    display: flex; /* Use flexbox to align items horizontally */
+    flex-direction: row; /* Arrange items in a row */
+    gap: 1rem; /* Optional: Add spacing between items */
+    margin: 0; /* Reset any margin */
+    padding: 0; /* Reset any padding */
+    list-style: none; /* Ensure no list-style dots appear */
+}
+
+/* Adjust navbar-brand styling if needed */
+.navbar-brand {
+    white-space: nowrap; /* Prevent brand text from wrapping */
+}
+
+/* Ensure proper spacing and alignment on small screens */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center; /* Center-align text for stacked items */
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 1rem; /* Add space between stacked items */
+    }
+}
