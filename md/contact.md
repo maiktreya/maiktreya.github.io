@@ -1,6 +1,4 @@
 
----
-
 For bussiness  and consultancy related inquires:
 
 - #### Mail: <miguel.garcia.duch@gmail.com>
