@@ -1,6 +1,3 @@
----
-
----
 
 For bussiness  and consultancy related inquires:
 
@@ -21,5 +18,4 @@ Unionism / Social-Movements:
 
 - #### Mail: <miguelgarcia@ccoo.es>
 
----
 ---
