@@ -2,14 +2,17 @@
 
 Some of my projects developing and implementing new features for the R enviroment.
 
+---
+
+
 ### OaxacaSurvey
 
 A draft partially extending the functionalities of oaxaca library for survey data including individual sampling weights so decompositions are correctly computed (the original oaxaca library descompositions ignore survey weights and the effects don't sum up).
 
 - [Public repository](https://github.com/maiktreya/OaxacaSurvey)
 
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
+---
+---
 
 ### SystemfitECM
 
@@ -17,12 +20,15 @@ A working implementation of Error Correction models and ARDL reparametrizations 
 
 - [Public repository](https://github.com/maiktreya/systemfitECM)
 
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
+---
+---
 
 ## Python based projects
 
 Data analyisis and visualization web-based apps. Built on python using streamlit as backbone easily composed into multi-services with docker-compose-swarm.
+
+---
+
 
 ### VisualRegression
 
@@ -31,8 +37,8 @@ A straightforward app showcasing interactive linear-regression with generated or
 - [Public repository](https://github.com/maiktreya/visual-regression)
 - [Live interactive example](https://visual-regression.streamlit.app/)
 
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
+---
+---
 
 ### WebModbusClient
 
@@ -41,8 +47,8 @@ Minimal implementation of an asyncronous modbus TCP web-client and a streamlit f
 - [Public repository](https://github.com/maiktreya/WebModbusClient)
 - [Live interactive example](https://webmodbusclient.streamlit.app/)
 
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
+---
+---
 
 ### SqlDashboard
 
@@ -51,5 +57,5 @@ Sql query WebApp showcasing some nice features (tidy code, draw relational diagr
 - [Public repository](https://github.com/maiktreya/sql-dashboard)
 - [Live interactive example](https://sql-dashboard.streamlit.app/)
 
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
+---
+---
