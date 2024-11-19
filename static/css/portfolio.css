@@ -1,4 +1,4 @@
-/* Your existing portfolio card styles */
+/* General styles for portfolio cards */
 .portfolio-card {
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -30,97 +30,71 @@
 .project-description,
 .project-title {
   word-wrap: break-word;
-  /* Break long words */
   overflow-wrap: break-word;
-  /* Ensure wrapping in modern browsers */
+}
+
+/* Grid layout for portfolio section */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default single column */
+  gap: 20px; /* Spacing between items */
 }
 
 @media (min-width: 768px) {
   .portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    /* Spacing between items */
-    align-items: start;
-    /* Ensures alignment */
+    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
   }
+}
 
-  .portfolio-card {
-    flex: 1 1 100%;
-    /* Full width by default */
-    max-width: 100%;
-    /* Prevent overflow */
+@media (min-width: 1200px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr); /* Three columns for larger screens */
   }
+}
 
-  @media (min-width: 1200px) {
-    .portfolio-card {
-      flex: 1 1 calc(33.333% - 20px);
-      /* Three columns for very large screens */
-    }
-  }
+/* Ensure iframe and overlay functionality */
+.portfolio-iframe {
+  display: none;
+  width: 100vw; /* Fullscreen width */
+  height: 100vh; /* Fullscreen height */
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: white;
+}
 
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
 
-  /* Style for the hidden iframe */
-  .portfolio-iframe {
-    display: none;
-    /* Initially hidden */
-    width: 80%;
-    /* Adjust as needed */
-    height: 60%;
-    /* Adjust as needed */
-    border: none;
-    /* Removes the default border */
-    position: fixed;
-    /* To make it float */
-    left: 50%;
-    /* Center horizontally */
-    top: 50%;
-    /* Center vertically */
-    transform: translate(-50%, -50%);
-    /* Adjust position to center */
-    z-index: 1000;
-    /* Ensure it's above other content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Optional: adds shadow for better visibility */
-  }
+/* Button styles */
+#showIframeBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s, transform 0.3s;
+}
 
-  /* Style for the background overlay (optional) */
-  .overlay {
-    display: none;
-    /* Initially hidden */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent background */
-    z-index: 999;
-    /* Just below the iframe */
-  }
+#showIframeBtn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
 
-  /* Additional style for the button to fit within the card */
-  #showIframeBtn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: white;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-    /* Make button full width */
-    box-sizing: border-box;
-    /* Include padding in the button's width */
-    transition: background-color 0.3s, transform 0.3s;
-  }
-
-  #showIframeBtn:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-  }
-
-  #showIframeBtn:focus {
-    outline: none;
-  }
+#showIframeBtn:focus {
+  outline: none;
 }
