@@ -33,36 +33,23 @@
   overflow-wrap: break-word;
 }
 
-/* Simple styling for the portfolio content to match other sections */
+/* Grid layout for portfolio section */
 .portfolio-grid {
-  display: block; /* Disable grid or flexbox */
+  display: grid;
+  grid-template-columns: 1fr; /* Default single column */
+  gap: 20px; /* Spacing between items */
 }
 
-.portfolio-card {
-  width: 100%; /* Full width, like other sections */
-  margin-bottom: 20px; /* Add spacing between cards */
+@media (min-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+  }
 }
 
-/* Button styles */
-#showIframeBtn {
-  padding: 10px 20px;
-  font-size: 1rem;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  box-sizing: border-box;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-#showIframeBtn:hover {
-  background-color: #0056b3;
-  transform: scale(1.05);
-}
-
-#showIframeBtn:focus {
-  outline: none;
+@media (min-width: 1200px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr); /* Three columns for larger screens */
+  }
 }
 
 /* Ensure iframe and overlay functionality */
@@ -87,4 +74,27 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
+}
+
+/* Button styles */
+#showIframeBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#showIframeBtn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#showIframeBtn:focus {
+  outline: none;
 }
