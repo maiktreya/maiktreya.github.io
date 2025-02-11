@@ -27,6 +27,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0;
   padding: 0;
 }
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.gif-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.thumbnail {
+    cursor: pointer;
+    max-width: 300px;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
 </style>
 
 
@@ -58,72 +111,137 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="login">Login</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/login.gif" class="img-fluid figure-img" alt="Login GIF"></p>
+<p><img src="assets/gifs/login.gif" class="thumbnail" onclick="openModal('login-modal')" alt="Login GIF"></p>
 <figcaption class="figure-caption">GIF 4</figcaption>
 </figure>
+</div>
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('login-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/login.gif" alt="Login GIF">
+        </div>
+    </div>
 </div>
 </section>
 <section id="limited-custom-access-privileges-for-users" class="level2">
 <h2 class="anchored" data-anchor-id="limited-custom-access-privileges-for-users">Limited custom access &amp; privileges for users</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/limited.gif" class="img-fluid figure-img" alt="Limited Access GIF"></p>
+<p><img src="assets/gifs/limited.gif" class="thumbnail" onclick="openModal('limited-modal')" alt="Limited Access GIF"></p>
 <figcaption class="figure-caption">GIF 3</figcaption>
 </figure>
 <p><img src="assets/gifs/plants-list.gif" class="img-fluid figure-img" alt="Available Plants List GIF"></p>
+</div>
+<div id="limited-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('limited-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/limited.gif" alt="Limited Access GIF">
+        </div>
+    </div>
+</div>
 </section>
 <section id="available-plants-list" class="level2">
 <h2 class="anchored" data-anchor-id="available-plants-list">Available plants list</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/plants-list.gif" class="img-fluid figure-img" alt="Plants List GIF"></p>
+<p><img src="assets/gifs/plants-list.gif" class="thumbnail" onclick="openModal('plants-list-modal')" alt="Plants List GIF"></p>
 <figcaption class="figure-caption">GIF 2</figcaption>
 </figure>
+</div>
+<div id="plants-list-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('plants-list-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/plants-list.gif" alt="Plants List GIF">
+        </div>
+    </div>
 </div>
 </section>
 <section id="vista-de-planta-1" class="level2">
 <h2 class="anchored" data-anchor-id="vista-de-planta-1">Vista de planta 1</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/vista-planta1.gif" class="img-fluid figure-img" alt="Plant 1 View GIF"></p>
+<p><img src="assets/gifs/vista-planta1.gif" class="thumbnail" onclick="openModal('vista-planta1-modal')" alt="Plant 1 View GIF"></p>
 <figcaption class="figure-caption">GIF 1</figcaption>
 </figure>
+</div>
+<div id="vista-planta1-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('vista-planta1-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/vista-planta1.gif" alt="Plant 1 View GIF">
+        </div>
+    </div>
 </div>
 </section>
 <section id="vista-de-planta-2" class="level2">
 <h2 class="anchored" data-anchor-id="vista-de-planta-2">Vista de planta 2</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/vista-planta2.gif" class="img-fluid figure-img" alt="Plant 2 View GIF"></p>
+<p><img src="assets/gifs/vista-planta2.gif" class="thumbnail" onclick="openModal('vista-planta2-modal')" alt="Plant 2 View GIF"></p>
 <figcaption class="figure-caption">GIF 2</figcaption>
 </figure>
+</div>
+<div id="vista-planta2-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('vista-planta2-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/vista-planta2.gif" alt="Plant 2 View GIF">
+        </div>
+    </div>
 </div>
 </section>
 <section id="regression-for-power-productionconsumption-readings" class="level2">
 <h2 class="anchored" data-anchor-id="regression-for-power-productionconsumption-readings">Regression for power production/consumption readings</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/sesgo1.gif" class="img-fluid figure-img" alt="Power Regression GIF"></p>
+<p><img src="assets/gifs/sesgo1.gif" class="thumbnail" onclick="openModal('sesgo1-modal')" alt="Power Regression GIF"></p>
 <figcaption class="figure-caption">GIF 1</figcaption>
 </figure>
+</div>
+<div id="sesgo1-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('sesgo1-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/sesgo1.gif" alt="Power Regression GIF">
+        </div>
+    </div>
 </div>
 </section>
 <section id="generate-report-for-selected-period" class="level2">
 <h2 class="anchored" data-anchor-id="generate-report-for-selected-period">Generate report for selected period</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/informe1.gif" class="img-fluid figure-img" alt="Report Generation GIF"></p>
+<p><img src="assets/gifs/informe1.gif" class="thumbnail" onclick="openModal('informe1-modal')" alt="Report Generation GIF"></p>
 <figcaption class="figure-caption">GIF 2</figcaption>
 </figure>
+</div>
+<div id="informe1-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('informe1-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/informe1.gif" alt="Report Generation GIF">
+        </div>
+    </div>
 </div>
 </section>
 <section id="preview-already-existing-reports" class="level2">
 <h2 class="anchored" data-anchor-id="preview-already-existing-reports">Preview already existing reports</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/gifs/informe2.gif" class="img-fluid figure-img" alt="Report Preview GIF"></p>
+<p><img src="assets/gifs/informe2.gif" class="thumbnail" onclick="openModal('informe2-modal')" alt="Report Preview GIF"></p>
 <figcaption class="figure-caption">GIF 1</figcaption>
 </figure>
+</div>
+<div id="informe2-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('informe2-modal')">&times;</span>
+        <div class="gif-container">
+            <img src="assets/gifs/informe2.gif" alt="Report Preview GIF">
+        </div>
+    </div>
 </div>
 </section>
 </section>
@@ -361,6 +479,35 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+});
+
+function openModal(modalId) {
+    document.getElementById(modalId).style.display = "block";
+    document.body.style.overflow = "hidden";
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+    document.body.style.overflow = "auto";
+}
+
+// Close modal when clicking outside of it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+        event.target.style.display = "none";
+        document.body.style.overflow = "auto";
+    }
+}
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+        const modals = document.getElementsByClassName('modal');
+        for (let modal of modals) {
+            modal.style.display = "none";
+        }
+        document.body.style.overflow = "auto";
+    }
 });
 </script>
 </div> <!-- /content -->
