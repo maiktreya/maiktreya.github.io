@@ -135,10 +135,3 @@ document.addEventListener("DOMContentLoaded", function () {
     console.error("Overlay for hiding iframe not found!");
   }
 });
-document.getElementById("showIframeBtn").addEventListener("click", function() {
-  document.getElementById("iframeContainer").style.display = "block";
-});
-
-document.getElementById("closeIframeBtn").addEventListener("click", function() {
-  document.getElementById("iframeContainer").style.display = "none";
-});
