@@ -16,6 +16,17 @@ MathJax = {
   tex: { inlineMath: [["$", "$"]] },
 };
 
+// Add error handling for missing dependencies
+if (typeof bootstrap === 'undefined') {
+    console.error('Bootstrap not loaded!');
+}
+if (typeof marked === 'undefined') {
+    console.error('Marked.js not loaded!');
+}
+if (typeof jsyaml === 'undefined') {
+    console.error('js-yaml not loaded!');
+}
+
 // Event listener for DOMContentLoaded
 window.addEventListener("DOMContentLoaded", (event) => {
   console.log("DOMContentLoaded event fired.");
@@ -97,41 +108,20 @@ window.addEventListener("DOMContentLoaded", (event) => {
 });
 
 // Portfolio iframe show/hide functionality
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Setting up portfolio iframe interactions.");
+document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('showIframeBtn');
+    const iframe = document.querySelector('.portfolio-iframe');
+    const overlay = document.querySelector('.overlay');
 
-  // Show iframe
-  const iframeButton = document.getElementById("showIframeBtn");
-  if (iframeButton) {
-    iframeButton.addEventListener("click", function () {
-      const iframe = document.querySelector(".portfolio-iframe");
-      const overlay = document.querySelector(".overlay");
-      if (iframe && overlay) {
-        iframe.style.display = "block"; // Show iframe
-        overlay.style.display = "block"; // Show overlay
-        console.log("Portfolio iframe shown.");
-      } else {
-        console.error("Iframe or overlay not found for showing!");
-      }
-    });
-  } else {
-    console.error("Button for showing iframe not found!");
-  }
+    if (btn && iframe && overlay) {
+        btn.addEventListener('click', function() {
+            iframe.style.display = iframe.style.display === 'none' ? 'block' : 'none';
+            overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
+        });
 
-  // Hide iframe
-  const overlay = document.querySelector(".overlay");
-  if (overlay) {
-    overlay.addEventListener("click", function () {
-      const iframe = document.querySelector(".portfolio-iframe");
-      if (iframe) {
-        iframe.style.display = "none"; // Hide iframe
-        overlay.style.display = "none"; // Hide overlay
-        console.log("Portfolio iframe hidden.");
-      } else {
-        console.error("Iframe not found for hiding!");
-      }
-    });
-  } else {
-    console.error("Overlay for hiding iframe not found!");
-  }
+        overlay.addEventListener('click', function() {
+            iframe.style.display = 'none';
+            overlay.style.display = 'none';
+        });
+    }
 });
