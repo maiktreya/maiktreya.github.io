@@ -13,6 +13,7 @@
   font-src 'self' https://fonts.gstatic.com; 
   img-src 'self' data:; 
   connect-src 'self';">
+
   <title id="title"></title>
   <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
   <!-- Bootstrap CSS -->
@@ -131,40 +132,35 @@
   </section>
   <!-- Teaching -->
 
-<!-- Portfolio Section -->
-<section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="portfolio">
-  <div class="container px-5">
-    <header>
-      <h2 id="portfolio-subtitle">
-        <i class="bi bi-file-text-fill"></i>PORTFOLIO
-      </h2>
-    </header>
-    <div id="portfolio-content" class="portfolio-grid">
-      <!-- Project placeholders will be populated here -->
-    </div>
-    <!-- Button to show the iframe -->
-    <div class="portfolio-card">
-      <div class="project-title">Visual Power Plant Monitoring</div>
-      <div class="project-description">
-        A full Web-App based on multiple microservices (mongodb + fastapi + python async-modbus-engine + nginx + 
-        streamlit as frontend). All orchestrated using docker for a robust webapp for monitoring and data analysis 
-        of power plants and facilities relying on Modbus TCP control devices.
+  <!-- Portfolio Section -->
+  <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="portfolio">
+    <div class="container px-5">
+      <header>
+        <h2 id="portfolio-subtitle">
+          <i class="bi bi-file-text-fill"></i>PORTFOLIO
+        </h2>
+      </header>
+      <div id="portfolio-content" class="portfolio-grid">
+        <!-- Project placeholders will be populated here -->
       </div>
-      <button id="showIframeBtn">
-        Visual Modbus Plant SaaS: Feature Overview
-      </button>
-      <!-- Optional: overlay background -->
-      <div class="overlay"></div>
-
-      <!-- iframe container -->
-      <div id="iframeContainer" class="iframe-container">
-        <button id="closeIframeBtn">×</button> <!-- Close button -->
-        <iframe src="static/virtual-modbus-gifs.html" class="portfolio-iframe" title="Visual Modbus Plant SaaS Feature Overview"></iframe>
+      <!-- Button to show the iframe -->
+      <div class="portfolio-card">
+        <!-- Portfolio Thumbnail or other content here -->
+        <div class="project-title">Visual Power Plant Monitoring</div>
+        <div class="project-description">A full Web-App based on multiple microservices (mongodb + fastapi + python
+          async-modbus-engine + nginx + streamlit as fronted). All orchestrated using docker for a robust webapp for
+          monitoring and data analysis of power plants and facilities relying on Modbus TCP control devices</div>
+        <button id="showIframeBtn">
+          Visual Modbus Plant SaaS: Feature Overview
+        </button>
+        <!-- Optional: overlay background -->
+        <div class="overlay"></div>
+        <!-- iframe with the portfolio content -->
+        <iframe src="static/virtual-modbus-gifs.html" class="portfolio-iframe" title="Visual Modbus Plant SaaS Feature Overview">
+        </iframe>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
 
   <!-- Contact -->
   <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="contact">
