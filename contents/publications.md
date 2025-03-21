@@ -5,7 +5,7 @@
 ---
 ---
 
-García-Duch, M. (2025). External imbalances and the Balance of Payments Constraint: Evidence on Multi-Sector Thirlwall’s Law for 9 Eurozone countries (1992-2019). [*Cambridge Journal of Economics*] (https://doi.org/10.1093/cje/beaf015)
+García-Duch, M. (2025). External imbalances and the Balance of Payments Constraint: Evidence on Multi-Sector Thirlwall’s Law for 9 Eurozone countries (1992-2019). [*Cambridge Journal of Economics*](https://doi.org/10.1093/cje/beaf015)
 [ICEI Working Papers WP02-23](https://docta.ucm.es/entities/publication/17cc3980-a4e2-4790-8b4b-0ed2e3daf071)
 
 ---
