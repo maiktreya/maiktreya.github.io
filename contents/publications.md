@@ -5,14 +5,14 @@
 ---
 ---
 
-García-Duch, M. (2025). External imbalances and the Balance of Payments Constraint: Evidence on Multi-Sector Thirlwall’s Law for 9 Eurozone countries (1992-2019). [*Cambridge Journal of Economics*](https://doi.org/10.1093/cje/beaf015)
+García-Duch, M. (2025) → External imbalances and the Balance of Payments Constraint: Evidence on Multi-Sector Thirlwall’s Law for 9 Eurozone countries (1992-2019). [*Cambridge Journal of Economics*](https://doi.org/10.1093/cje/beaf015)
 [ICEI Working Papers WP02-23](https://docta.ucm.es/entities/publication/17cc3980-a4e2-4790-8b4b-0ed2e3daf071)
 
 ---
 ---
 
 
-Vidal, L., & García-Duch, M. (2024). The limits to working-class property ownership: The case of Spain’s ‘society of owners.’  [*Economy and Society*](https://doi.org/10.1080/03085147.2024.2414586), 1–26.
+Vidal, L., & García-Duch, M. (2024) → The limits to working-class property ownership: The case of Spain’s ‘society of owners.’  [*Economy and Society*](https://doi.org/10.1080/03085147.2024.2414586), 1–26.
 
 
 ---
@@ -34,14 +34,14 @@ García-Duch M., Vidal-Folch L., del Río A., Camacho I. (2012) → El sur de Eu
 ---
 ---
 
-Gil, Javier; García-Duch, Miguel; Vidal, Lorenzo; Martínez, Miguel A. (2024) El mercado de alquiler: fuente de desigualdad social. Madrid: GECU. 
+Gil, Javier; García-Duch, Miguel; Vidal, Lorenzo; Martínez, Miguel A. (2024). El mercado de alquiler: fuente de desigualdad social. Madrid: GECU. 
 https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf
 
 ---
 ---
 
 
-El Salto Diario. (2023, March 20). Límites de la sociedad de propietarios. El Salto Diario. 
+El Salto Diario. (2023). Límites de la sociedad de propietarios. El Salto Diario. 
 https://www.elsaltodiario.com/cuadernos-de-ciudad/limites-sociedad-propietarios
 
 ---
@@ -49,6 +49,16 @@ https://www.elsaltodiario.com/cuadernos-de-ciudad/limites-sociedad-propietarios
 
 García Duch, M. (2023). La Brecha 11. Los trabajadores y el mito de la nueva clase propietaria. Confederación General del Trabajo.
 https://cgt.org.es/wp-content/uploads/2023/04/LaBrecha-11-web.pdf
+
+---
+---
+
+### Newspapers & Press
+
+---
+---
+
+Diario Público (2013-2015). Multiple opinion articles available at:  https://www.publico.es/search/?q=econonuestra+miguel+garcia
 
 ---
 ---
