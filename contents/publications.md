@@ -5,8 +5,8 @@
 ---
 ---
 
-García-Duch, M. (2024) → Balance of Payments Constrained Growth in the Eurozone: Evidence on Multi-Sector Thirlwall’s Law for a Sample of 9 Founding Euro Countries, 1992-2019. Authors: Miguel García Duch. [ICEI Working Papers WP02-23](https://docta.ucm.es/entities/publication/17cc3980-a4e2-4790-8b4b-0ed2e3daf071)
-(Pending publication in Cambridge Journal of Economics, accepted june 2024)
+García-Duch, M. (2025). External imbalances and the Balance of Payments Constraint: Evidence on Multi-Sector Thirlwall’s Law for 9 Eurozone countries (1992-2019). [*Cambridge Journal of Economics*] (https://doi.org/10.1093/cje/beaf015)
+[ICEI Working Papers WP02-23](https://docta.ucm.es/entities/publication/17cc3980-a4e2-4790-8b4b-0ed2e3daf071)
 
 ---
 ---
@@ -47,7 +47,7 @@ https://www.elsaltodiario.com/cuadernos-de-ciudad/limites-sociedad-propietarios
 ---
 ---
 
-García Duch, M. (2023). La Brecha 11. Confederación General del Trabajo.
+García Duch, M. (2023). La Brecha 11. Los trabajadores y el mito de la nueva clase propietaria. Confederación General del Trabajo.
 https://cgt.org.es/wp-content/uploads/2023/04/LaBrecha-11-web.pdf
 
 ---
