@@ -24,11 +24,6 @@ García-Duch, M.(2018) → “Productivity Convergence During the Eurozone Genes
 ---
 ---
 
-García-Duch M., Vidal-Folch L., del Río A., Camacho I. (2012) → El sur de Europa frente a la Gran recesión: límites y potencialidades. In: El sur de Europa frente a la Gran recesión: límites y potencialidades. EDITORIAL ECONONUESTRA ISBN 13:978-84-695-9239-7
-
----
----
-
 ### Other key publications
 
 ---
@@ -41,14 +36,19 @@ https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alq
 ---
 
 
-El Salto Diario. (2023). Límites de la sociedad de propietarios. El Salto Diario. 
+García-Duch, M. (2023). Límites de la sociedad de propietarios. El Salto Diario. 
 https://www.elsaltodiario.com/cuadernos-de-ciudad/limites-sociedad-propietarios
 
 ---
 ---
 
-García Duch, M. (2023). La Brecha 11. Los trabajadores y el mito de la nueva clase propietaria. Confederación General del Trabajo.
+García-Duch, M. (2023). Los trabajadores y el mito de la nueva clase propietaria. Confederación General del Trabajo (CGT). La Brecha 11.
 https://cgt.org.es/wp-content/uploads/2023/04/LaBrecha-11-web.pdf
+
+---
+---
+
+García-Duch M., Vidal-Folch L., del Río A., Camacho I. (2012). El sur de Europa frente a la Gran recesión: límites y potencialidades. In: El sur de Europa frente a la Gran recesión: límites y potencialidades. EDITORIAL ECONONUESTRA ISBN 13:978-84-695-9239-7
 
 ---
 ---
