@@ -28,3 +28,27 @@ García-Duch M., Vidal-Folch L., del Río A., Camacho I. (2012) → El sur de Eu
 
 ---
 ---
+
+### Other key publications
+
+---
+---
+
+Gil, Javier; García-Duch, Miguel; Vidal, Lorenzo; Martínez, Miguel A. (2024) El mercado de alquiler: fuente de desigualdad social. Madrid: GECU. 
+https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf
+
+---
+---
+
+
+El Salto Diario. (2023, March 20). Límites de la sociedad de propietarios. El Salto Diario. 
+https://www.elsaltodiario.com/cuadernos-de-ciudad/limites-sociedad-propietarios
+
+---
+---
+
+García Duch, M. (2023). La Brecha 11. Confederación General del Trabajo.
+https://cgt.org.es/wp-content/uploads/2023/04/LaBrecha-11-web.pdf
+
+---
+---
