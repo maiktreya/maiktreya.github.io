@@ -1,7 +1,7 @@
 
 For bussiness  and consultancy related inquires:
 
-- #### Mail: <miguel.garcia.duch@gmail.com>
+- #### Mail: <garciaduchm@gmail.com>
 - #### [Linkedin](https://www.linkedin.com/in/miguel-garcia-duch-a606b22a5)
 - #### [Github](https://github.com/maiktreya)
 
