@@ -29,6 +29,15 @@ García-Duch, M.(2018) → “Productivity Convergence During the Eurozone Genes
 ---
 ---
 
+García-Duch, Miguel; García Rodríguez-Marín, Alicia; García Rubio, Manuel E. (2025). Segovia, ciudad tensionada: Quién gana y quién pierde en la crisis de la vivienda. Madrid: Rosa-Luxemburg-Stiftung.
+https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf
+
+---
+---
+
+---
+---
+
 Gil, Javier; García-Duch, Miguel; Vidal, Lorenzo; Martínez, Miguel A. (2024). El mercado de alquiler: fuente de desigualdad social. Madrid: GECU. 
 https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf
 
