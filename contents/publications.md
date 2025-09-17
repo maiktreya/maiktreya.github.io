@@ -35,9 +35,6 @@ https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alq
 ---
 ---
 
----
----
-
 Gil, Javier; García-Duch, Miguel; Vidal, Lorenzo; Martínez, Miguel A. (2024). El mercado de alquiler: fuente de desigualdad social. Madrid: GECU. 
 https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf
 
