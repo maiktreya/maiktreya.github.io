@@ -19,7 +19,7 @@ Vidal, L., & García-Duch, M. (2024) → The limits to working-class property ow
 ---
 
 
-García-Duch, M.(2018) → “Productivity Convergence During the Eurozone Genesis (1992 – 2007): Evidence of an expected phenomena.“ [Revista de Economía Mundial. N.º 84. April 2018.](http://hdl.handle.net/10272/14725)  ISSN: 1576-0162
+García-Duch, M.(2018) → “Productivity Convergence During the Eurozone Genesis (1992 – 2007): Evidence of an expected phenomena.“ [Revista de Economía Mundial. N.º 84. April 2018](http://hdl.handle.net/10272/14725). ISSN: 1576-0162
 
 ---
 ---
@@ -29,27 +29,24 @@ García-Duch, M.(2018) → “Productivity Convergence During the Eurozone Genes
 ---
 ---
 
-García-Duch, Miguel; García Rodríguez-Marín, Alicia; García Rubio, Manuel E. (2025). Segovia, ciudad tensionada: Quién gana y quién pierde en la crisis de la vivienda. Madrid: Rosa-Luxemburg-Stiftung.
-https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf
+García-Duch, Miguel; García Rodríguez-Marín, Alicia; García Rubio, Manuel E. (2025). [Segovia, ciudad tensionada: Quién gana y quién pierde en la crisis de la vivienda](https://rosalux.es/2025/05/segovia-ciudad-tensionada-quien-gana-y-quien-pierde-en-la-crisis-de-vivienda/). Madrid: Rosa-Luxemburg-Stiftung.
 
 ---
 ---
 
-Gil, Javier; García-Duch, Miguel; Vidal, Lorenzo; Martínez, Miguel A. (2024). El mercado de alquiler: fuente de desigualdad social. Madrid: GECU. 
-https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf
+Gil, Javier; García-Duch, Miguel; Vidal, Lorenzo; Martínez, Miguel A. (2024). [El mercado de alquiler: fuente de desigualdad social](https://estudioscriticosurbanos.com/wp-content/uploads/2024/04/El-mercado-de-alquiler-fuente-de-desigualdad-social-2.pdf). Madrid: GECU. 
+
 
 ---
 ---
 
 
-García-Duch, M. (2023). Límites de la sociedad de propietarios. El Salto Diario. 
-https://www.elsaltodiario.com/cuadernos-de-ciudad/limites-sociedad-propietarios
+García-Duch, M. (2023). [Límites de la sociedad de propietarios](https://www.elsaltodiario.com/cuadernos-de-ciudad/limites-sociedad-propietarios). El Salto Diario. 
 
 ---
 ---
 
-García-Duch, M. (2023). Los trabajadores y el mito de la nueva clase propietaria. Confederación General del Trabajo (CGT). La Brecha 11.
-https://cgt.org.es/wp-content/uploads/2023/04/LaBrecha-11-web.pdf
+García-Duch, M. (2023). [Los trabajadores y el mito de la nueva clase propietaria](https://cgt.org.es/wp-content/uploads/2023/04/LaBrecha-11-web.pdf). Confederación General del Trabajo (CGT). La Brecha 11.
 
 ---
 ---
