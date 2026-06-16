@@ -1,6 +1,16 @@
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
+## Full apps
+
+Fully dockerized solutions integrating a DB-centric spirit
+
+### TenantsUnion
+
+3-layer application integrating a CRUD frontend + 0 code PostgREST API + PostgreSQL to deploy a fully functional tenants union internal management system
+
+- [Public repository](https://github.com/maiktreya/tenantsUnion)
+
 ## R libraries and projects
 
 Some of my projects developing and implementing new features for the R enviroment.
@@ -23,19 +33,9 @@ A working implementation of Error Correction models and ARDL reparametrizations 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-## Python based projects
+## Tools
 
-Data analyisis and visualization web-based apps. Built on python using streamlit as backbone easily composed into multi-services with docker-compose-swarm.
-
-### VisualRegression
-
-A straightforward app showcasing interactive linear-regression with generated or user-provided data. It reports both live scatter-plot visualizations and common statistical tests and inference tools.
-
-- [Public repository](https://github.com/maiktreya/visual-regression)
-- [Live interactive example](https://visual-regression.streamlit.app/)
-
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
+Hackish tools to make data adquisition easier.
 
 ### WebModbusClient
 
@@ -47,12 +47,15 @@ Minimal implementation of an asyncronous modbus TCP web-client and a streamlit f
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-### SqlDashboard
+## Large Surveys & Microdata
 
-Sql query WebApp showcasing some nice features (tidy code, draw relational diagram, download...)
+### Spain´s ECV & EFF
 
-- [Public repository](https://github.com/maiktreya/sql-dashboard)
-- [Live interactive example](https://sql-dashboard.streamlit.app/)
+Recopilation, and data tidying for some well known spanish & european socioeconomic surveys. 
+
+- [Public repository ECV](https://github.com/maiktreya/ECVmicrodata)
+- [Public repository EFF](https://github.com/maiktreya/EFFmicrodata)
+
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
