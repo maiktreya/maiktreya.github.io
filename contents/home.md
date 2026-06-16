@@ -8,14 +8,14 @@ crisis. This research culminated in an award-winning publication in the Journal 
 <blockquote>
 Possessing a strong foundation in political economy, macroeconomics, and advanced statistical
 analysis, Miguel has showcased his expertise in econometric modelling and data analysis throughout
-his five-year tenure at Real Energy Systems and in his current role as a freelance data scientist
+his five-year tenure at Real Energy Systems and in his current role as a freelance data engineer
 working on full stack consultancy on data-oriented software development. He has also been
 a visiting researcher at Kingston University (London), and has held teaching positions at both
 Universidad Complutense de Madrid and the University of Valladolid.
 </blockquote>
 
 <blockquote>
-Currently associated with the Complutense Institute for International Studies (ICEI-UCM) and the 
+Currently a Lecturer in Applied, Public and Political Economy at UCM while consulting for 
 labour union CCOO, Miguel is deepening his exploration into income and wealth distribution trends, 
 using extensive databases and surveys to investigate European and global trends through large scale 
 inferential models and Machine- learning techniques. Passionate about applied research and building 
@@ -37,7 +37,8 @@ interests.
 
 ## A2. Current research positions
 
-- (2017-) → Research Associate. ICEI – Complutense Institute for International Studies (ICEI). Complutense University of Madrid (UCM)
+- (2026-) → Lecturer in Applied, Public and Politcal Economy. Complutense University of Madrid (UCM)
+- (2026-) -> Research Associate. Grupo de Estudios Críticos Urbanos (GECU)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
