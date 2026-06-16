@@ -1,16 +1,6 @@
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 
-## Full apps
-
-Fully dockerized solutions integrating a DB-centric spirit
-
-### TenantsUnion
-
-3-layer application integrating a CRUD frontend + 0 code PostgREST API + PostgreSQL to deploy a fully functional tenants union internal management system
-
-- [Public repository](https://github.com/maiktreya/tenantsUnion)
-
 ## R libraries and projects
 
 Some of my projects developing and implementing new features for the R enviroment.
@@ -59,3 +49,13 @@ Recopilation, and data tidying for some well known spanish & european socioecono
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
+
+## Full apps
+
+Fully dockerized solutions integrating a DB-centric spirit.
+
+### TenantsUnion
+
+3-layer application integrating a CRUD frontend + 0 code PostgREST API + PostgreSQL to deploy a fully functional tenants union internal management system
+
+- [Public repository](https://github.com/maiktreya/tenantsUnion)
